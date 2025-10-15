@@ -22,7 +22,6 @@ backend/target/
 
 # Spring Boot
 backend/.env
-backend/.env.*
 
 # Node/React
 frontend/node_modules/
