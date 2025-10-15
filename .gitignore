@@ -19,9 +19,6 @@ backend/target/
 *.sublime-workspace
 *.sublime-project
 
-# Maven wrapper
-backend/mvnw
-backend/mvnw.cmd
 
 # Spring Boot
 backend/.env
