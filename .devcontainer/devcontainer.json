@@ -1,0 +1,24 @@
+{
+  "name": "ExpenseTracker Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "forwardPorts": [8080, 3000],
+  "postCreateCommand": "cd backend && ls -l ./mvnw && whoami && chmod +x ./mvnw && ./mvnw clean install && cd ../frontend && npm install",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.home": "/usr/local/sdkman/candidates/java/current"
+      },
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

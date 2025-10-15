@@ -1,0 +1,41 @@
+# Java/Maven
+backend/target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+*.iws
+*.ipr
+*.bak
+*.swp
+.DS_Store
+*.tmp
+*.out
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# Maven wrapper
+backend/mvnw
+backend/mvnw.cmd
+
+# Spring Boot
+backend/.env
+backend/.env.*
+
+# Node/React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# VSCode
+.vscode/
